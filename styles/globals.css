@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply mx-auto bg-gray-50; /* Center body content and set a light background color */
+  }
+
+  /* Page container styling for consistency across devices */
+  .page-container {
+    @apply w-full max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg px-4 sm:px-6 lg:px-8;
+  }
+}
